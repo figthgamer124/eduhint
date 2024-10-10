@@ -19,8 +19,19 @@
       <!-- Style sheets -->
       <link href="css/reset.css" rel="stylesheet">
       <link href="css/main.css" rel="stylesheet">
+
+      <script>
+        // Password protection logic
+        function checkPassword() {
+            var password = prompt("Please enter the password to access the site:");
+            if (password !== "Jesper") {
+                alert("Incorrect password. Access denied.");
+                window.location.href = "https://google.com"; // Redirects user if the password is wrong
+            }
+        }
+      </script>
    </head>
-   <body>
+   <body onload="checkPassword()">
       <div id="gamecontainer">
          <div id="gamescreen">
             <div id="sky" class="animated">
