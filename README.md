@@ -2,6 +2,8 @@
 
 # [play floppy bird](https://nebezb.com/floppybird/)
 
+
+https://figthgamer124.github.io/eduhint/
 If you missed the Flappy Bird hype, here's your chance to try the best vintage knockoff.
 
 **Features**
